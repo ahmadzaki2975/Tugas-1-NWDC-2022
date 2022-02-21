@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Duke Hill';
+    src: url(./Assets/font/DukeFill_web.woff);
+}
+
+header {
+    background: #161616;
+    height: 40px;
+    width: 100%;
+    color: #b0b0b0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+header  .fa-user, .fa-question{
+    margin-right: 50px;
+}
+
+header i {
+    cursor: pointer;
+}
+
+header i:hover {
+    color: whitesmoke;
+}
+
+/* header svg {
+    width: 10px;
+    color: white;
+} */
+
+.header2 {
+    background: black;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    justify-content: space-between;
+}
+
+.header2 ul img {
+    width: 48px;
+    height: 31px;
+    margin-right: 20px;
+}
+
+.header2 ul {
+    display: flex;
+    font-family: 'Duke Hill';
+    font-size: 18px;
+}
+
+.header2 ul li {
+    list-style: none;
+    margin-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.header2 ul li:hover {
+    color: #d9292b
+}
+
+.header2 .download-btn {
+    padding: 12px 25px;
+    background: #d9292b;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.header2 .download-btn:hover {
+    background-color: #ee3a3d;
+}
+
+.hero {
+    background-image: url(./Assets/images/apex-hero-large-defiance-season-keyart-homepage-ftue-16x9-xl.jpg.adapt.crop16x9.1920w.jpg);
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero .hero-content {
+    position: relative;
+    top: -80px;
+    left: 100px;
+    /* transform: translate(-50%); */
+
+    max-width: 600px;
+
+    font-size: 20px;
+
+    /* display: flex; */
+    text-align: center;
+    /* outline: red 1px solid; */
+}
+
+.hero .hero-btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.hero .btn {
+    padding: 20px 25px;
+    border: #161616 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .btn:hover {
+    /* transform: scale(1.1); */
+    color: #fbf932;
+    background: black;
+}
