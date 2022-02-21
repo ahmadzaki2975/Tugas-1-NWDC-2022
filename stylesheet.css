@@ -97,7 +97,7 @@ header i:hover {
 .hero {
     background-image: url(./Assets/images/apex-hero-large-defiance-season-keyart-homepage-ftue-16x9-xl.jpg.adapt.crop16x9.1920w.jpg);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     /* aspect-ratio: 16/9; */
     background-size: cover;
     background-position: center;
@@ -189,10 +189,9 @@ header i:hover {
     }
 
     .hero .hero-content {
-        transform: scale(0.7) translate(0, 100px);
+        transform: scale(0.7) translate(0, 60px);
         margin-top: 100px;
         background: rgb(255, 255, 255, 0.6);
         border-radius: 2px;
     }
 }
->>>>>>> c46365fb6a2a282253cddaba5f391cac92b11b58
