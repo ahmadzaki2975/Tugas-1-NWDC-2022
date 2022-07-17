@@ -1,4 +1,4 @@
-# tugas-1-nwdc-2022
+# Tugas-1-NWDC-2022
 
 Tugas Internal Workshop NWDC #1 : Membuat landing page
 
